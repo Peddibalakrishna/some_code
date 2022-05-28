@@ -10,7 +10,7 @@ pipeline {
 
     stage('post') {
       steps {
-        sh 'archiveArtifacts artifacts: \'scriptfile.txt\', followSymlinks: false'
+        archiveArtifacts 'scriptfile.txt'
       }
     }
 
