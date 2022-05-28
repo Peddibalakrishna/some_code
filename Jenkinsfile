@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('buildit') {
       steps {
-        sh '''sh \'\'\' chmod ./testscript.sh ./testscript.sh\'\'\'
+        sh '''sh \'\'\' chmod +x ./testscript.sh
+./testscript.sh\'\'\'
 '''
       }
     }
