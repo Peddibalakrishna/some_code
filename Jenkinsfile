@@ -17,7 +17,7 @@ pipeline {
     	steps{
 		echo "trigger added"
 	}
-    }
+      }
 
   }
 }
