@@ -15,7 +15,7 @@ pipeline {
     }
     stage('print'){
       steps{
-        echo "trigger added"
+        echo "trigger added again"
       }
     }
 
