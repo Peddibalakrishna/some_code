@@ -13,6 +13,11 @@ pipeline {
         archiveArtifacts 'scriptfile.txt'
       }
     }
+    stage('print'){
+    	steps{
+		echo "trigger added"
+	}
+    }
 
   }
 }
