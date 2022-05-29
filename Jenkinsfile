@@ -9,6 +9,11 @@ pipeline {
         echo 'hello this is from the trigger'
       }
     }
+    stage('print') {
+    	steps{
+    		echo 'hello how are you'
+	}
+	}
 
   }
 }
